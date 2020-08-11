@@ -1,11 +1,15 @@
 import React from 'react';
 import './App.scss';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Main from './sections';
 
 const App = () => {
   return (
-    <div>
-      <h1>App</h1>
-    </div>
+    <BrowserRouter>
+      <Switch>
+        <Route component={Main} exact path='/' strict />
+      </Switch>
+    </BrowserRouter>
   );
 };
 

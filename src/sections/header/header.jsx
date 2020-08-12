@@ -1,12 +1,8 @@
 import React from 'react';
-import cssModule from './header.module.scss';
+import Navbar from '../../components/navbar/navbar';
 
 const Header = () => {
-  return (
-    <div className={cssModule.root}>
-      <h1>Header</h1>
-    </div>
-  );
+  return <Navbar />;
 };
 
 export default Header;

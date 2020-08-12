@@ -1,0 +1,107 @@
+.navbarPosTop {
+  @media (min-width: 992px) {
+    padding-left: 35%;
+    padding-right: 35%;
+  }
+}
+
+.navPosTop {
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-animation: fadeIn2 0.5s ease-in;
+  -moz-animation: fadeIn2 0.5s ease-in;
+  -o-animation: fadeIn2 0.5s ease-in;
+  animation: fadeIn2 0.5s ease-in;
+}
+
+.nav {
+  margin-left: auto;
+  -webkit-animation: fadeIn 0.5s ease-in;
+  -moz-animation: fadeIn 0.5s ease-in;
+  -o-animation: fadeIn 0.5s ease-in;
+  animation: fadeIn 0.5s ease-in;
+}
+
+.brandPosTop {
+  -webkit-animation: fadeIn2 0.5s ease-in;
+  -moz-animation: fadeIn2 0.5s ease-in;
+  -o-animation: fadeIn2 0.5s ease-in;
+  animation: fadeIn2 0.5s ease-in;
+}
+
+.brand {
+  -webkit-animation: fadeIn 0.5s ease-in;
+  -moz-animation: fadeIn 0.5s ease-in;
+  -o-animation: fadeIn 0.5s ease-in;
+  animation: fadeIn 0.5s ease-in;
+}
+
+.logo {
+  width: 50px;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,50 @@
+.icon {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  font-size: 60px;
+  color: #52b1ff;
+  -webkit-animation: fadeIn 0.15s ease-in;
+  -moz-animation: fadeIn 0.15s ease-in;
+  -o-animation: fadeIn 0.15s ease-in;
+  animation: fadeIn 0.15s ease-in;
+
+  &:hover {
+    cursor: pointer;
+    font-size: 75px;
+    transition: font-size 0.2s ease-in;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
